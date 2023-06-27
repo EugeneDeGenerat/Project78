@@ -26,7 +26,7 @@ submitButton.addEventListener("click", (event) => {
 
     // тоже можно будет удалить, пример как менять верстку из JS
     // нажмите "Рассчитать" и проверьте
-    normalCal.textContent = "999999999999";
+    normalCal.textContent = "0,1";
 
     // нужно чтобы страница после нажатия не обновлялась
     event.preventDefault();

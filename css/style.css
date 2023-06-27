@@ -1,0 +1,118 @@
+body {
+    padding-left: 40px;
+    padding-right: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+    height: 100vh;
+}
+
+html {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 100%;
+    background: url(https://www.nawpic.com/media/2020/gigachad-nawpic.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: 200px 0px;
+
+}
+
+h1 {
+    font-weight: 700;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.gender-selector {
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #000000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+main {
+    padding-top: 55px;
+
+}
+
+input[type='number'] {
+    border-radius: 3px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    margin-top: 3px;
+}
+
+.submit {
+
+    border-radius: 3px;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+}
+
+.buttonblock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: auto;
+    padding: 2px;
+}
+
+legend {
+    font-size: 28px;
+
+}
+
+fieldset {
+    margin-top: 10px;
+}
